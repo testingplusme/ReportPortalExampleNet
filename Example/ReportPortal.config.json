@@ -1,0 +1,18 @@
+﻿{
+  "$schema": "https://https://raw.githubusercontent.com/reportportal/agent-net-nunit/master/src/ReportPortal.NUnitExtension/ReportPortal.config.schema",
+  "enabled": true,
+  "server": {
+    "url": "http://68.183.221.192:8080/api/v1",
+    "project": "default_personal",
+    "authentication": {
+      "uuid": "611fdd05-5d48-410d-b333-834c310ce23c"
+    }
+  },
+  "launch": {
+    "name": "default",
+    "description": "this is description",
+    "debugMode": false,
+    "tags": [ "t1", "t2" ]
+  },
+  "rootNamespaces": [ "Example.dll", "Example", "Tests" ]
+}
